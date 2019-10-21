@@ -92,3 +92,10 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+# 存储MySQL常用变量
+MYSQL_HOST = 'localhost'
+MYSQL_USER = 'root'
+MYSQL_PWD = '123456'
+MESQL_DB = 'maoyandb'
+MYSQL_CHARSET = 'utf8'
