@@ -22,6 +22,8 @@ NEWSPIDER_MODULE = 'Maoyan.spiders'
 ROBOTSTXT_OBEY = False
 LOG_LEVEL = 'WARNING'
 # LOG_FILE = 'maoyan.log'
+# 设置导出编码
+FEED_EXPORT_ENCODING = 'utf-8'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
